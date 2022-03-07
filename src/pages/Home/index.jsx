@@ -27,7 +27,7 @@ export default function Home() {
                         <div className='content'>
                             <h2 className='name'>{movie.nome}</h2>
                             <p className='sinopse'>{movie.sinopse}</p>
-                            <Link className='btn' to="/">ACESSAR</Link>
+                            <Link className='btn' to={`/filme/${movie.id}`}>ACESSAR</Link>
                         </div>
                     </article>
                 );

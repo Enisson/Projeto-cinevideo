@@ -48,6 +48,10 @@ article {
     transition: all .5s;
 }
 
+.content a {
+    color: white;
+}
+
 .btn:hover {
     background-color: #088C7F;
 }

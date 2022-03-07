@@ -5,9 +5,10 @@ footer {
     justify-content: center;
     background-color: #36BFB1;
     padding: 70px 0;
+    width: 100%;
 }
 
-a {
+footer a {
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
