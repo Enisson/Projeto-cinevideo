@@ -40,3 +40,15 @@
 .favorite-container button:hover {
     background-color: #19a395;
 }
+
+@media (max-width: 900px) {
+    .favorite-container li {
+        width: 500px;
+    }
+}
+
+@media (max-width: 550px) {
+    .favorite-container li {
+        width: 300px;
+    }
+}

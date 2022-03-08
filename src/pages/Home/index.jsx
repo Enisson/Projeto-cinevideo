@@ -23,10 +23,12 @@ export default function Home() {
             {movie.map( (movie) => {
                 return (
                     <article key={movie.id}>
-                        <img className='img' src={movie.foto} alt={movie.nome} />
+                        <div className='img-container'><img className='img' src={movie.foto} alt={movie.nome} /></div>
                         <div className='content'>
                             <h2 className='name'>{movie.nome}</h2>
-                            <p className='sinopse'>{movie.sinopse}</p>
+                            <div className="sinopse-container">
+                                <p className='sinopse'>{movie.sinopse}</p>
+                            </div>
                             <Link className='btn' to={`/filme/${movie.id}`}>ACESSAR</Link>
                         </div>
                     </article>

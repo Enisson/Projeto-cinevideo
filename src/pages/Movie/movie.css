@@ -67,3 +67,40 @@
 .movie-img {
     width: 500px;
 }
+
+@media (max-width: 1200px) {
+    .movie-container {
+        max-width: 900px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .movie-sinopse {
+        max-width: 500px;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+
+    .movie-container img {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 900px) {
+    .movie-container {
+        width: 700px;
+    }
+
+    .movie-container img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+    .movie-container {
+        width: 300px;
+    }
+}
