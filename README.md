@@ -25,3 +25,6 @@ por cada elemento da array.
 
 ### hooks
 Nesse projeto também, fiz uso de alguns hooks do react como o useState para receber os filmes fornecidos da api através do useEffect.
+
+### Link
+Link para o site: https://cinevideo.netlify.app
