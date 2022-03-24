@@ -23,8 +23,5 @@ Seguindo a proposta da lib, organizei os arquivos em suas pastas correspondênte
 Fiz uso da api fornecida pelo o professor a qual eu pude buscar os filmes e seus detalhes, assim como a imagem dos filmes correspondentes e através do método map eu percorri 
 por cada elemento da array.
 
-### hooks
-Nesse projeto também, fiz uso de alguns hooks do react como o useState para receber os filmes fornecidos da api através do useEffect.
-
 ### Link
 Link para o site: https://cinevideo.netlify.app
